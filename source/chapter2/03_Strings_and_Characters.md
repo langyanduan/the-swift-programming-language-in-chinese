@@ -399,7 +399,7 @@ for index in greeting.indices {
 
 > 注意
 > 
-> 你可以使用 `startIndex` 和 `endIndex` 属性或者 `index(before:)` 、`index(after:)` 和 `index(_:offsetBy:)` 方法在任意一个确认的并遵循 `Collection` 协议的类型里面，如上文所示是使用在 `String` 中，你也可以使用在 `Array`、`Dictionary` 和 `Set` 中。
+> 您可以在遵循 `Collection` 协议的任何类型上使用 `startIndex` 和 `endIndex` 属性以及 `index（before :)`、`index（after :)` 和 `index（_：offsetBy :)` 方法。包括上文所示的 `String`，以及集合类型如 `Array`、`Dictionary` 和 `Set`。
 
 <a name="inserting_and_removing"></a>
 ### 插入和删除
@@ -428,7 +428,7 @@ welcome.removeSubrange(range)
 
 > 注意
 > 
-> 你可以使用 `insert(_:at:)`、`insert(contentsOf:at:)`、`remove(at:)` 和 `removeSubrange(_:)` 方法在任意一个确认的并遵循 `RangeReplaceableCollection` 协议的类型里面，如上文所示是使用在 `String` 中，你也可以使用在 `Array`、`Dictionary` 和 `Set` 中。
+> 您可以在遵循 `RangeReplaceableCollection` 协议的任何类型上使用 `insert(_:at:)`、`insert(contentsOf:at:)`、`remove(at:)` 和 `removeSubrange(_:)` 方法。包括上文所示的 `String`，以及集合类型如 `Array`、`Dictionary` 和 `Set`。
 
 <a name="substrings"></a>
 ## 子字符串
